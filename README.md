@@ -93,3 +93,13 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+<br>
+<hr>
+<br>
+
+**Neler Yaptım**
+1. Intro Component with Sign-Up Form projesi, Frontend Mentor üzerindeki bir tasarımı hayata geçirmek amacıyla oluşturulmuş bir web geliştirme projesidir. Bu proje, HTML, SCSS (Sass) ve JavaScript kullanılarak geliştirilmiştir. Proje, tarayıcı penceresinin boyutuna duyarlıdır, bu da kullanıcıların farklı cihazlarda sorunsuz bir şekilde erişebilmesini sağlar.<br>
+
+2. HTML, proje içindeki metin ve formların yapısını oluşturmak için kullanılmıştır. CSS (SCSS) ile tasarımın görsel unsurları oluşturulmuş ve sayfanın stilini belirlenmiştir. Ayrıca, JavaScript kullanılarak kullanıcıların formu doldurduğunda giriş bilgilerinin doğruluğunu kontrol eden işlevler eklenmiştir.<br>
+
+3. Bu proje, web geliştirme becerilerini geliştirmek için harika bir fırsat sunar ve Frontend Mentor gibi platformlarda bulunan çeşitli tasarım zorluklarına pratik yapma imkanı sağlar. Ayrıca, tarayıcı uyumluluğu ve kullanılabilirlik gibi önemli konuları ele alarak gerçek dünya uygulama geliştirme deneyimi sunar."<br>
