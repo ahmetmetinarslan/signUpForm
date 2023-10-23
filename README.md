@@ -102,4 +102,4 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 2. HTML, proje içindeki metin ve formların yapısını oluşturmak için kullanılmıştır. CSS (SCSS) ile tasarımın görsel unsurları oluşturulmuş ve sayfanın stilini belirlenmiştir. Ayrıca, JavaScript kullanılarak kullanıcıların formu doldurduğunda giriş bilgilerinin doğruluğunu kontrol eden işlevler eklenmiştir.<br>
 
-3. Bu proje, web geliştirme becerilerini geliştirmek için harika bir fırsat sunar ve Frontend Mentor gibi platformlarda bulunan çeşitli tasarım zorluklarına pratik yapma imkanı sağlar. Ayrıca, tarayıcı uyumluluğu ve kullanılabilirlik gibi önemli konuları ele alarak gerçek dünya uygulama geliştirme deneyimi sunar."<br>
+3. Bu proje, web geliştirme becerilerini geliştirmek için harika bir fırsat sunar ve Frontend Mentor gibi platformlarda bulunan çeşitli tasarım zorluklarına pratik yapma imkanı sağlar. Ayrıca, tarayıcı uyumluluğu ve kullanılabilirlik gibi önemli konuları ele alarak gerçek dünya uygulama geliştirme deneyimi sunar.<br>
