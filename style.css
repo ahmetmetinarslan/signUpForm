@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --DarkBlue: hsl(249, 10%, 26%);
+  --GrayishBlue: hsl(246, 25%, 77%);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-image: url(/images/bg-intro-desktop.png);
+  background-color: var(--Red);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container {
+  width: 1440px;
+  height: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+body .container .row .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  height: 70%;
+  color: #fff;
+  padding: 5px;
+}
+
+body .container .row .left .lefttitle {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+body .container .row .left .lefttext {
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+body .container .row .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 35%;
+  height: 70%;
+  padding: 5px;
+}
+
+body .container .row .right .trybtn {
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--Blue);
+  font-weight: 700;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+body .container .row .right .trybtn span {
+  font-weight: 400;
+}
+
+body .container .row .right .rightform {
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: none;
+}
+
+body .container .row .right .rightform input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid var(--GrayishBlue);
+  padding: 8px;
+  color: black;
+  outline: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+body .container .row .right .rightform input:focus {
+  border-color: black;
+}
+
+body .container .row .right .rightform .claimbtn {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--Green);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+body .container .row .right .rightform .claimbtn:hover {
+  opacity: 0.7;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+body .container .row .right .rightform .rightformtext {
+  width: 100%;
+  height: 5px;
+  font-size: 8px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--GrayishBlue);
+}
+
+body .container .row .right .rightform .rightformtext span {
+  color: var(--Red);
+  cursor: pointer;
+}
+
+body .container .row .right .rightform .firsterricon {
+  right: 23%;
+  top: 31%;
+  position: absolute;
+  background-image: url("images/icon-error.svg");
+  background-repeat: no-repeat;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: none;
+}
+
+body .container .row .right .rightform .lasterricon {
+  right: 23%;
+  top: 39.4%;
+  position: absolute;
+  background-image: url("images/icon-error.svg");
+  background-repeat: no-repeat;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: none;
+}
+
+body .container .row .right .rightform .emailerricon {
+  right: 23%;
+  top: 48.5%;
+  position: absolute;
+  background-image: url("images/icon-error.svg");
+  background-repeat: no-repeat;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: none;
+}
+
+body .container .row .right .rightform .passerricon {
+  right: 23%;
+  top: 57.2%;
+  position: absolute;
+  background-image: url("images/icon-error.svg");
+  background-repeat: no-repeat;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: none;
+}
+
+body .container .row .right .rightform span {
+  color: var(--Red);
+  text-align: right;
+  font-size: smaller;
+}
+
+body .container .row .right .rightform .successmsg {
+  color: var(--Green);
+  text-align: center;
+  font-size: smaller;
+  font-weight: 400;
+}
+
+@media (max-width: 780px) {
+  .container {
+    width: auto;
+    height: auto;
+  }
+  .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  .container .row .left {
+    padding-top: 100px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    width: 100% !important;
+    height: 500px !important;
+    gap: 15px;
+  }
+  .container .row .left .lefttitle {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .container .row .left .lefttext {
+    margin-top: 15px;
+    font-weight: 400;
+  }
+  .container .row .right {
+    width: 80% !important;
+    height: 100% !important;
+    gap: 20px;
+  }
+  .container .row .right .rightform {
+    width: 100%;
+    height: 500px !important;
+  }
+  .container .row .right .rightform .firsterricon,
+  .container .row .right .rightform .lasterricon,
+  .container .row .right .rightform .emailerricon,
+  .container .row .right .rightform .passerricon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

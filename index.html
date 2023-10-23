@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!----------------------Left Section ---------------------------------->
+
+        <section class="left">
+          <h1 class="lefttitle">Learn to code by watching others</h1>
+          <p class="lefttext">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </section>
+
+        <!-------------------- #Left Section ---------------------------------->
+
+        <!-- -------------------Right Section --------------------------------->
+
+        <section class="right">
+          <button class="trybtn">
+            Try it free 7 days <span>then $20/mo. thereafter</span>
+          </button>
+          <form class="rightform">
+            <input
+              type="text"
+              class="firstname"
+              id="firstName"
+              placeholder="First Name"
+            />
+            <div class="firsterricon" id="firstErrIcon"></div>
+            <span id="firstErrMsg"></span>
+            <input
+              type="text"
+              class="lastname"
+              id="lastName"
+              placeholder="Last Name"
+            />
+            <div class="lasterricon" id="lastErrIcon"></div>
+            <span id="lastErrMsg"></span>
+            <input
+              type="email"
+              class="email"
+              id="emailInput"
+              placeholder="Email Address"
+            />
+            <div class="emailerricon" id="emailErrIcon"></div>
+            <span id="emailErrMsg"></span>
+            <input
+              type="password"
+              class="password"
+              id="passwordInput"
+              placeholder="Password"
+            />
+            <div class="passerricon" id="passErrIcon"></div>
+            <span id="passwordErrMsg"></span>
+            <button class="claimbtn" id="claimBtn">
+              CLAIM YOUR FREE TRIAL
+            </button>
+            <p class="successmsg" id="successMsg"></p>
+            <p class="rightformtext">
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </form>
+        </section>
+
+        <!----------------------- #Right Section ------------------------------>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
